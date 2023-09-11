@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 9</title>
+    <style>
+        #SideNav a{
+            position: absolute;
+            left: -80px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+        #SideNav a:hover{
+            left: 0;
+        }
+        .mb{
+            margin-left: 80px;
+        }
+        #home {
+            top: 20px;
+            background-color: #04AA6D;
+        }
+
+        #java {
+            top: 80px;
+            background-color: #2196F3;
+        }
+
+        #css {
+            top: 140px;
+            background-color: #f44336;
+        }
+
+        #cont {
+            top: 200px;
+            background-color: #555
+        }
+    </style>
+</head>
+<body>
+    <div id="SideNav" class="hov">
+        <a href="#" id="home">Home</a>
+        <a href="#" id="java">JAVA</a>
+        <a href="#" id="css">CSS</a>
+        <a href="#" id="cont">Contact</a>
+    </div>
+    <div class="mb">
+        <h1>Hoverable Sidenav Button</h1>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+</body>
+</html>
